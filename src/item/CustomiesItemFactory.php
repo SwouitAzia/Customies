@@ -67,7 +67,7 @@ final class CustomiesItemFactory {
         $this->itemTableEntries[$itemTypeName] = new ItemTypeEntry(
             $itemTypeName,
             $itemTypeId,
-            true,
+            false,
             1,
             new CacheableNbt($item->getComponents()
                 ->setInt("id", $itemTypeId)
